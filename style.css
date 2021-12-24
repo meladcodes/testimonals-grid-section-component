@@ -1,0 +1,126 @@
+@import url(https://fonts.google.com/specimen/Barlow+Semi+Condensed);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(210, 46%, 95%);
+}
+
+.mainContainer {
+  width: min(95%, 70rem);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.sameAttr {
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 14px;
+  box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(0, 0%, 81%);
+}
+
+.testimonial1 {
+  grid-column: span 2;
+  background-color: hsl(263, 55%, 52%);
+  color: white;
+}
+
+.testimonial2 {
+  background-color: hsl(217, 19%, 35%);
+  color: white;
+}
+
+.testimonial3 {
+  background-color: #fff;
+  color: hsl(217, 19%, 35%);
+}
+
+.testimonial3 p {
+  color: hsl(219, 29%, 14%);
+  opacity: 70%;
+}
+
+.testimonial3 h3 {
+  color: hsl(219, 29%, 14%);
+}
+
+.testimonial4 {
+  grid-column: span 2;
+  background-color: hsl(219, 29%, 14%);
+  color: white;
+}
+
+.testimonial5 {
+  grid-column-start: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-color: #fff;
+  color: hsl(217, 19%, 35%);
+}
+
+.testimonial5 p {
+  color: hsl(219, 29%, 14%);
+  opacity: 70%;
+}
+
+.testimonial5 h3 {
+  color: hsl(219, 29%, 14%);
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+header h2 {
+  font-size: 1rem;
+  margin-left: 0.8rem;
+}
+
+header h3 {
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+  margin-left: 0.8rem;
+}
+
+header img {
+  border-radius: 50%;
+  max-width: 2.5rem;
+  max-height: 2.5rem;
+}
+
+.textArea {
+  margin-top: 0.8rem;
+}
+
+.textArea h1 {
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+h3 {
+  color: hsl(0, 0%, 81%);
+  opacity: 50%;
+}
+
+.testimonial1.quoteMark {
+  background-image: url("./images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: top right 10%;
+}
+
+p {
+  color: white;
+  opacity: 70%;
+}
